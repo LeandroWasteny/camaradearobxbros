@@ -1438,6 +1438,14 @@ ul {
 }
 
 @media (max-width: 768px) {
+    .header {
+        background: rgba(10, 10, 15, 0.95);
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+        border-bottom: 1px solid var(--color-border);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    }
+
     .nav__links {
         display: none;
     }
